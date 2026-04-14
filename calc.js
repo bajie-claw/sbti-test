@@ -114,3 +114,13 @@ function prepareTest(questions, specialQuestions) {
         ...shuffledRegular.slice(insertIndex)
     ];
 }
+
+// 暴露给 app.js 的可见题目计算（依赖 app.answers）
+function getVisibleQuestions() {
+    const visible = [...app.shuffledQuestions];
+    const gateIndex = visible.findIndex(q => q.id === 'drink_gate_q1');
+    if (gateIndex !== -1 && app.answers['drink_gate_q1'] === 3) {
+        visible.splice(gateIndex + 1, 0, app.data.specialQuestions[1]);
+    }
+    return visible;
+}
