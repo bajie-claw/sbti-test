@@ -1,0 +1,122 @@
+{
+  "CTRL": {
+    "code": "CTRL",
+    "cn": "拿捏者",
+    "intro": "怎么样，被我拿捏了吧？"
+  },
+  "BOSS": {
+    "code": "BOSS",
+    "cn": "领导者",
+    "intro": "方向盘给我，我来开。"
+  },
+  "THAN-K": {
+    "code": "THAN-K",
+    "cn": "感恩者",
+    "intro": "我感谢苍天！我感谢大地！"
+  },
+  "OH-NO": {
+    "code": "OH-NO",
+    "cn": "哦不人",
+    "intro": "哦不！我怎么会是这个人格？！"
+  },
+  "GOGO": {
+    "code": "GOGO",
+    "cn": "行者",
+    "intro": "gogogo~出发咯"
+  },
+  "SEXY": {
+    "code": "SEXY",
+    "cn": "尤物",
+    "intro": "您就是天生的尤物！"
+  },
+  "LOVE-R": {
+    "code": "LOVE-R",
+    "cn": "多情者",
+    "intro": "爱意太满，现实显得有点贫瘠。"
+  },
+  "MUM": {
+    "code": "MUM",
+    "cn": "妈妈",
+    "intro": "或许...我可以叫你妈妈吗....?"
+  },
+  "FAKE": {
+    "code": "FAKE",
+    "cn": "伪人",
+    "intro": "已经，没有人类了。"
+  },
+  "OJBK": {
+    "code": "OJBK",
+    "cn": "无所谓人",
+    "intro": "我说随便，是真的随便。"
+  },
+  "MALO": {
+    "code": "MALO",
+    "cn": "吗喽",
+    "intro": "人生是个副本，而我只是一只吗喽。"
+  },
+  "JOKE-R": {
+    "code": "JOKE-R",
+    "cn": "小丑",
+    "intro": "原来我们都是小丑。"
+  },
+  "THIN-K": {
+    "code": "THIN-K",
+    "cn": "思考者",
+    "intro": "已深度思考100s。"
+  },
+  "SHIT": {
+    "code": "SHIT",
+    "cn": "愤世者",
+    "intro": "这个世界，构石一坨。"
+  },
+  "ZZZZ": {
+    "code": "ZZZZ",
+    "cn": "装死者",
+    "intro": "我没死，我只是在睡觉。"
+  },
+  "POOR": {
+    "code": "POOR",
+    "cn": "贫困者",
+    "intro": "我穷，但我很专。"
+  },
+  "MONK": {
+    "code": "MONK",
+    "cn": "僧人",
+    "intro": "没有那种世俗的欲望。"
+  },
+  "IMSB": {
+    "code": "IMSB",
+    "cn": "傻者",
+    "intro": "认真的么？我真的是傻逼么？"
+  },
+  "SOLO": {
+    "code": "SOLO",
+    "cn": "孤儿",
+    "intro": "我哭了，我怎么会是孤儿？"
+  },
+  "FUCK": {
+    "code": "FUCK",
+    "cn": "草者",
+    "intro": "操！这是什么人格？"
+  },
+  "DEAD": {
+    "code": "DEAD",
+    "cn": "死者",
+    "intro": "我，还活着吗？"
+  },
+  "IMFW": {
+    "code": "IMFW",
+    "cn": "废物",
+    "intro": "我真的...是废物吗？"
+  },
+  "HHHH": {
+    "code": "HHHH",
+    "cn": "傻乐者",
+    "intro": "哈哈哈哈哈哈。"
+  },
+  "DRUNK": {
+    "code": "DRUNK",
+    "cn": "酒鬼",
+    "intro": "烈酒烧喉，不得不醉。"
+  }
+}
