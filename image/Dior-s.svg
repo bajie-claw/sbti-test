@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#F5DEB3"/>
+  
+  <circle cx="60" cy="55" r="35" fill="#DEB887"/>
+  <ellipse cx="60" cy="88" rx="20" ry="8" fill="#D2691E" opacity="0.6"/>
+  <circle cx="46" cy="50" r="6" fill="#2F2F2F"/>
+  <circle cx="74" cy="50" r="6" fill="#2F2F2F"/>
+  <ellipse cx="46" cy="49" r="2" ry="1" fill="white"/>
+  <ellipse cx="74" cy="49" r="2" ry="1" fill="white"/>
+  <path d="M48 70 Q60 80 72 70" stroke="#8B4513" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M30 35 Q40 25 50 35" stroke="#8B4513" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M70 35 Q80 25 90 35" stroke="#8B4513" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="60" y="112" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#8B4513">屌丝逆袭</text>
+
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#F0FFF0"/>
+  
+  <circle cx="60" cy="50" r="30" fill="#90EE90" opacity="0.3"/>
+  <path d="M60 25 L50 55 H42 L55 70 L48 95 L60 82 L72 95 L65 70 L78 55 H70 Z" fill="#32CD32"/>
+  <path d="M85 35 L100 35 L100 50" stroke="#32CD32" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M95 35 L95 50" stroke="#32CD32" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="60" y="112" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#228B22">GOGO</text>
+
+</svg>

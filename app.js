@@ -1,5 +1,5 @@
 // ==================== 加密数据加载 ====================
-const _MANIFEST = {"dimensionMeta.enc":1054,"questions.enc":8582,"specialQuestions.enc":521,"typeLibrary_meta.enc":1946,"typeLibrary_desc.enc":22261,"typeImages.enc":728,"normalTypes.enc":1213,"dimExplanations.enc":3149,"manifest.enc":216};
+const _MANIFEST = {"dimensionMeta.enc":1054,"questions.enc":8582,"specialQuestions.enc":521,"typeLibrary_meta.enc":1946,"typeLibrary_desc.enc":22261,"typeImages.enc":1013,"normalTypes.enc":1213,"dimExplanations.enc":3149,"manifest.enc":216};
 const _KEY_MATERIAL = 'sbti2024_crypto_key_v1';
 const _SALT = 'c2J0aV9zYWx0XzIwMjQ=';
 const _BASE_URL = './texts';
@@ -93,7 +93,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 function bindEvents() {
     document.getElementById('startBtn').addEventListener('click', () => startTest(false));
     document.getElementById('backIntroBtn').addEventListener('click', () => showScreen('intro'));
-    document.getElementById('submitBtn').addEventListener('click', renderResult);
+    document.getElementById('submitBtn').addEventListener('click', () => {
+        const visibleQuestions = getVisibleQuestions();
+        const total = visibleQuestions.length;
+        const unanswered = visibleQuestions.filter(q => app.answers[q.id] === undefined);
+        if (unanswered.length > 0) {
+            // 滚动到第一个未作答的题目
+            const firstUnanswered = unanswered[0];
+            const el = document.querySelector(`input[name="${firstUnanswered.id}"]`);
+            if (el) {
+                el.closest('.question').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+            showToast(`请先完成第 ${visibleQuestions.indexOf(firstUnanswered) + 1} 题`);
+            return;
+        }
+        renderResult();
+    });
     document.getElementById('restartBtn').addEventListener('click', () => startTest(false));
 }
 
@@ -103,6 +118,15 @@ function showScreen(name) {
     document.getElementById('test').classList.toggle('active', name === 'test');
     document.getElementById('result').classList.toggle('active', name === 'result');
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showToast(msg) {
+    const toast = document.getElementById('toast');
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('visible');
+    clearTimeout(toast._timer);
+    toast._timer = setTimeout(() => toast.classList.remove('visible'), 2800);
 }
 
 // ==================== 开始测试 ====================
@@ -186,7 +210,6 @@ function updateProgress() {
     document.getElementById('progressText').textContent = `${done} / ${total}`;
 
     const complete = done === total && total > 0;
-    document.getElementById('submitBtn').disabled = !complete;
     document.getElementById('testHint').textContent = complete
         ? '都做完了。现在可以把你的电子魂魄交给结果页审判。'
         : '全选完才会放行。世界已经够乱了，起码把题做完整。';

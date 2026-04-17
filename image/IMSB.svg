@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#EDE9FE"/>
+  
+  <circle cx="42" cy="52" r="22" fill="#7B68EE" opacity="0.85"/>
+  <circle cx="78" cy="52" r="22" fill="#9370DB" opacity="0.85"/>
+  <path d="M32 52 Q42 40 52 52 Q62 64 72 52" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M68 52 Q78 40 88 52 Q98 64 108 52" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text x="60" y="102" text-anchor="middle" font-family="monospace" font-size="13" font-weight="bold" fill="#7B68EE">IMSB</text>
+
+</svg>

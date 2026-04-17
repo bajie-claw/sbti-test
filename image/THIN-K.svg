@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#F0F8FF"/>
+  
+  <circle cx="60" cy="55" r="32" fill="#778899" opacity="0.2"/>
+  <ellipse cx="60" cy="52" rx="28" ry="26" fill="#B0C4DE"/>
+  <circle cx="46" cy="48" r="6" fill="white"/>
+  <circle cx="74" cy="48" r="6" fill="white"/>
+  <circle cx="47" cy="49" r="3" fill="#2F2F2F"/>
+  <circle cx="75" cy="49" r="3" fill="#2F2F2F"/>
+  <path d="M52 65 Q60 72 68 65" stroke="#778899" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M36 30 Q50 20 60 30" stroke="#778899" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M60 30 Q70 20 84 30" stroke="#778899" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="60" cy="24" rx="8" ry="6" fill="#778899" opacity="0.5"/>
+  <text x="60" y="110" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#778899">THIN-K</text>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#FFF8DC"/>
+  
+  <ellipse cx="60" cy="75" rx="40" ry="20" fill="#DAA520" opacity="0.3"/>
+  <circle cx="60" cy="52" r="28" fill="#DAA520" opacity="0.5"/>
+  <circle cx="60" cy="50" r="22" fill="#DEB887"/>
+  <circle cx="52" cy="47" r="3" fill="#2F2F2F"/>
+  <circle cx="68" cy="47" r="3" fill="#2F2F2F"/>
+  <path d="M54 60 Q60 65 66 60" stroke="#8B4513" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="60" cy="55" rx="4" ry="3" fill="#C4A57B"/>
+  <circle cx="60" cy="28" r="6" fill="#DAA520"/>
+  <path d="M30 92 Q60 78 90 92" stroke="#DAA520" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="60" y="110" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#8B7500">修行中</text>
+
+</svg>

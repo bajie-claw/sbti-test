@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#F5F0FF"/>
+  
+  <circle cx="60" cy="50" r="30" fill="#BA55D3" opacity="0.25"/>
+  <path d="M60 22 L68 40 H78 L70 52 L75 72 L60 62 L45 72 L50 52 L42 40 H52 Z" fill="#BA55D3" opacity="0.6"/>
+  <circle cx="60" cy="45" r="12" fill="#E6E6FA"/>
+  <circle cx="56" cy="43" r="2.5" fill="#2F2F2F"/>
+  <circle cx="64" cy="43" r="2.5" fill="#2F2F2F"/>
+  <path d="M56 50 Q60 53 64 50" stroke="#8B008B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <text x="60" y="112" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#8B008B">SOLO</text>
+
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#FFE4E9"/>
+  
+  <path d="M60 28 C30 28 18 52 18 65 C18 85 36 96 60 80 C84 96 102 85 102 65 C102 52 90 28 60 28Z" fill="#FF69B4"/>
+  <path d="M60 32 C34 32 22 52 22 64 C22 80 38 90 60 76 C82 90 98 80 98 64 C98 52 86 32 60 32Z" fill="#FFB6C1"/>
+  <circle cx="44" cy="56" r="5" fill="white" opacity="0.7"/>
+  <circle cx="76" cy="56" r="5" fill="white" opacity="0.7"/>
+  <text x="60" y="64" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">♥</text>
+  <text x="60" y="108" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#C71585">THAN-K</text>
+
+</svg>

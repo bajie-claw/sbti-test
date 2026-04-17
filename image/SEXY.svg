@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#FFF0F5"/>
+  
+  <ellipse cx="60" cy="55" rx="28" ry="36" fill="#FF1493" opacity="0.2"/>
+  <ellipse cx="60" cy="42" rx="20" ry="20" fill="#FF69B4"/>
+  <path d="M48 58 Q60 70 72 58" stroke="#FF1493" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="52" cy="40" r="3" fill="#C71585"/>
+  <circle cx="68" cy="40" r="3" fill="#C71585"/>
+  <path d="M55 32 Q60 28 65 32" stroke="#C71585" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="60" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#FF1493">SEXY</text>
+
+</svg>

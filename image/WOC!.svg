@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#FFE8E8"/>
+  
+  <circle cx="60" cy="60" r="38" fill="#FF4500" opacity="0.2"/>
+  <circle cx="60" cy="60" r="30" fill="#FF4500" opacity="0.3"/>
+  <circle cx="60" cy="60" r="22" stroke="#FF4500" stroke-width="4" fill="none"/>
+  <text x="60" y="68" text-anchor="middle" font-family="Arial Black" font-size="24" font-weight="900" fill="#FF4500">!</text>
+  <text x="60" y="108" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#FF4500">WOC!</text>
+
+</svg>

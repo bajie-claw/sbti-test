@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#FFFACD"/>
+  
+  <polygon points="60,12 72,35 97,35 77,52 84,78 60,62 36,78 43,52 23,35 48,35" fill="#FFA500"/>
+  <circle cx="60" cy="55" r="18" fill="#FFE4B5"/>
+  <circle cx="53" cy="51" r="3" fill="#2F2F2F"/>
+  <circle cx="67" cy="51" r="3" fill="#2F2F2F"/>
+  <path d="M52 63 Q60 70 68 63" stroke="#FF8C00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="36" cy="30" r="5" fill="#FF4500"/>
+  <circle cx="84" cy="30" r="5" fill="#FF4500"/>
+  <text x="60" y="106" text-anchor="middle" font-family="monospace" font-size="10" fill="#FF8C00">JOKE-R</text>
+
+</svg>
