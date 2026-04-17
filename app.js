@@ -1,5 +1,5 @@
 // ==================== 加密数据加载 ====================
-const _MANIFEST = {"dimensionMeta.enc":1054,"questions.enc":8582,"specialQuestions.enc":521,"typeLibrary_meta.enc":1946,"typeLibrary_desc.enc":22261,"typeImages.enc":1013,"normalTypes.enc":1213,"dimExplanations.enc":3149,"manifest.enc":216};
+const _MANIFEST = {"dimensionMeta.enc":1054,"questions.enc":8582,"specialQuestions.enc":521,"typeLibrary_meta.enc":1946,"typeLibrary_desc.enc":24453,"typeImages.enc":1013,"normalTypes.enc":1213,"dimExplanations.enc":3149,"manifest.enc":216};
 const _KEY_MATERIAL = 'sbti2024_crypto_key_v1';
 const _SALT = 'c2J0aV9zYWx0XzIwMjQ=';
 const _BASE_URL = './texts';
