@@ -156,6 +156,11 @@ function renderQuestions() {
         input.addEventListener('change', (e) => {
             const { name, value } = e.target;
             app.answers[name] = Number(value);
+            // 立即更新选中态视觉反馈
+            e.target.closest('.option').classList.add('selected');
+            e.target.closest('.option').parentElement.querySelectorAll('.option').forEach(opt => {
+                if (opt !== e.target.closest('.option')) opt.classList.remove('selected');
+            });
             if (name === 'drink_gate_q1') {
                 if (Number(value) !== 3) {
                     delete app.answers['drink_gate_q2'];
